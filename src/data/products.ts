@@ -1,0 +1,12 @@
+import type { Product } from '../types/Product';
+export const products: Product[] = [
+{id:1,name:'Aurora Headphones',category:'Electronics',price:1290000,oldPrice:1590000,rating:4.8,stock:12,image:'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80',description:'Tai nghe không dây cao cấp, âm thanh chi tiết, đệm tai êm và thời lượng pin dài.',featured:true},
+{id:2,name:'Nova Mechanical Keyboard',category:'Electronics',price:990000,oldPrice:1190000,rating:4.7,stock:20,image:'https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=900&q=80',description:'Bàn phím cơ nhỏ gọn, cảm giác gõ tốt, phù hợp học tập và lập trình.',featured:true},
+{id:3,name:'Urban Backpack',category:'Fashion',price:690000,rating:4.6,stock:18,image:'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=80',description:'Balo đô thị chống nước, nhiều ngăn, thiết kế tối giản cho sinh viên.',featured:true},
+{id:4,name:'Minimal Watch',category:'Fashion',price:890000,oldPrice:1050000,rating:4.5,stock:9,image:'https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=900&q=80',description:'Đồng hồ phong cách tối giản, dây mềm và mặt kính chống xước.',featured:true},
+{id:5,name:'Desk Lamp Pro',category:'Home',price:450000,rating:4.4,stock:25,image:'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=80',description:'Đèn bàn LED nhiều mức sáng, phù hợp góc học tập và làm việc.',featured:true},
+{id:6,name:'Ceramic Coffee Set',category:'Home',price:520000,rating:4.7,stock:14,image:'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=80',description:'Bộ cốc sứ tối giản cho cà phê, trà và những buổi học thư giãn.',featured:true},
+{id:7,name:'Runner Sneakers',category:'Fashion',price:1190000,oldPrice:1390000,rating:4.8,stock:11,image:'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80',description:'Giày chạy nhẹ, đế êm, thiết kế năng động cho đi học và vận động.',featured:false},
+{id:8,name:'Smart Bottle',category:'Lifestyle',price:390000,rating:4.3,stock:30,image:'https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=900&q=80',description:'Bình nước giữ nhiệt tiện dụng, thiết kế gọn nhẹ cho cả ngày.',featured:false}
+];
+export const categories = ['All','Electronics','Fashion','Home','Lifestyle'];
